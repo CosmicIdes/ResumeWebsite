@@ -60,3 +60,18 @@ h2 {
     display: block;
     text-align: center;
 }
+
+/*end headers*/
+
+/*home page*/
+.profileGallery {
+    max-width: 300px;
+}
+
+.main {
+    display: flex;
+}
+
+.aboutMe {
+    margin: 1em;
+}

@@ -1,0 +1,37 @@
+@media only screen and (min-width: 768px) {
+/*navigation*/
+
+button#menuBtn { 
+ display: none;
+}
+
+nav {
+    background-color: #efd4fc;
+    display: block; 
+    color: rgb(95, 20, 138);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+nav ul{
+    margin:0; 
+    font-size: 1.5rem;
+    border: rgb(95, 20, 138) solid 1px;
+    padding: .8rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+}
+
+nav li.active {background-color: rgba(0,0,0,0.5);}
+nav a:hover {background-color: rgba(0,0,0,0);}
+nav ul.open {display: block;}
+nav > ul {display: block;}
+
+      
+  } /* end of media query */
