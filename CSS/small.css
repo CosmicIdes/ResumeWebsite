@@ -2,6 +2,15 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
 /*navigation*/
 
 button#menuBtn { 
@@ -61,6 +70,7 @@ h2 {
     text-align: center;
 }
 
+
 /*end headers*/
 
 /*home page*/
@@ -91,13 +101,17 @@ h2 {
 .aboutMe {
     margin: 1em;
     padding: 1em;
+    background-color:#efd4fc;
     border:rgb(95, 20, 138) solid 1px;
     border-radius: 5px;
+
 }
 
 .profile {
     margin: 1em;
     padding: 1em;
+    background-color: #efd4fc;
     border:rgb(95, 20, 138) solid 1px;
     border-radius: 5px;
 }
+
