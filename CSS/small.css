@@ -64,8 +64,24 @@ h2 {
 /*end headers*/
 
 /*home page*/
-.profileGallery {
+.galleryImg {
     max-width: 300px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .main {
@@ -74,4 +90,14 @@ h2 {
 
 .aboutMe {
     margin: 1em;
+    padding: 1em;
+    border:rgb(95, 20, 138) solid 1px;
+    border-radius: 5px;
+}
+
+.profile {
+    margin: 1em;
+    padding: 1em;
+    border:rgb(95, 20, 138) solid 1px;
+    border-radius: 5px;
 }
