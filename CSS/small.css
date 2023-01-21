@@ -113,4 +113,25 @@ h2 {
     border:rgb(95, 20, 138) solid 1px;
     border-radius: 5px;
 }
+/* end home page*/
 
+/* theatre page */
+table, th {
+    border:rgb(95, 20, 138) solid 3px;
+    padding: 8px;
+}
+
+th {
+    background-color:rgb(95, 20, 138);
+    color: #ffffff;
+}
+
+tr {
+    border:rgb(95, 20, 138) solid 2px;
+    padding: 8px;
+    margin: 8px;
+}
+
+ tr:nth-child(even) {
+    background-color: #efd4fc;
+}
