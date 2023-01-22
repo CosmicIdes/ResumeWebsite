@@ -11,6 +11,10 @@ body {
 
 }
 
+ul {
+    background-color: #efd4fc;
+}
+
 /*navigation*/
 
 button#menuBtn { 
@@ -64,6 +68,10 @@ h1 {
     display: block;
     text-align: center;
     padding: 1em;
+}
+
+h3 {
+    color:rgb(95, 20, 138);
 }
 
 #mainheader {
@@ -138,4 +146,9 @@ tr {
  tr:nth-child(even) {
     background-color: #efd4fc;
 }
-/* end theatre page*/
+/* end theatre page */
+
+/* experience page */
+#workHistoryBullets {
+    padding: 8px;
+}
