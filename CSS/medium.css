@@ -5,6 +5,7 @@ button#menuBtn {
  display: none;
 }
 
+/* navigation */
 nav {
     background-color: #efd4fc;
     display: block; 
@@ -33,5 +34,17 @@ nav a:hover {background-color: rgba(0,0,0,0);}
 nav ul.open {display: block;}
 nav > ul {display: block;}
 
+/* end navigation */
+
+/* main page */
+
+.main {
+    display: flexbox;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+
       
-  } /* end of media query */
+ } /* end of media query */
