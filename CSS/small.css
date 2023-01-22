@@ -63,25 +63,25 @@ nav > ul {display: none;}
 h1 {
     display: block;
     text-align: center;
+    padding: 1em;
 }
 
-h2 {
-    display: block;
-    text-align: center;
+#mainheader {
+    background-color:rgb(95, 20, 138);
+    color: #ffffff;
 }
-
 
 /*end headers*/
 
 /*home page*/
 .galleryImg {
-    max-width: 300px;
+    max-width: 280px;
 }
 
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 30%;
   width: auto;
   padding: 16px;
@@ -93,9 +93,7 @@ h2 {
   -webkit-user-select: none;
 }
 
-.main {
-    display: flex;
-}
+
 
 .aboutMe {
     margin: 1em;
@@ -112,6 +110,7 @@ h2 {
     background-color: #efd4fc;
     border:rgb(95, 20, 138) solid 1px;
     border-radius: 5px;
+    max-width: 300px;
 }
 /* end home page*/
 
@@ -135,3 +134,4 @@ tr {
  tr:nth-child(even) {
     background-color: #efd4fc;
 }
+/* end theatre page*/
