@@ -149,6 +149,18 @@ tr {
 /* end theatre page */
 
 /* experience page */
-#workHistoryBullets {
-    padding: 8px;
+#workExpBullets {
+    margin: 10px;
+}
+
+.expCard {
+    padding: 20px;
+    margin: 10px;
+    background-color: #efd4fc;
+    border: rgb(95, 20, 138) solid 3px;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
 }
